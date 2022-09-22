@@ -1,0 +1,11 @@
+const searchBarContainerEl= document.querySelector(".search-bar-container");
+
+const magnifierEl = document.querySelector(".magnifier");
+
+const googleEl= document.querySelector(".google_text");
+
+magnifierEl.addEventListener("click",() =>{ 
+    searchBarContainerEl.classList.toggle("active");
+    googleEl.classList.toggle("active");
+
+});
